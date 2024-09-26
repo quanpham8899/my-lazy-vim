@@ -1,0 +1,25 @@
+-- return {
+--     { "navarasu/onedark.nvim" },
+--     {
+--         "LazyVim/LazyVim",
+--         opts = {
+--             colorscheme = "onedark",
+--         },
+--     },
+-- }
+return { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... }
+-- return {
+--     { "rebelot/kanagawa.nvim" },
+--     {
+--         "LazyVim/LazyVim",
+--         opts = ...,
+--     },
+-- }
+
+-- return {
+--     {
+--         "neanias/everforest-nvim",
+--         lazy = false,
+--         priority = 1000, -- make sure to load this before all the other start plugins
+--     },
+-- }
