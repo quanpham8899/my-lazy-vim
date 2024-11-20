@@ -7,7 +7,20 @@
 --         },
 --     },
 -- }
-return { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... }
+--     "ellisonleao/gruvbox.nvim",
+
+return {
+    "ellisonleao/gruvbox.nvim",
+    priority = 1000,
+    config = true,
+    opts = {
+        transparent = true,
+        styles = {
+            sidebars = "transparent",
+            floats = "transparent",
+        },
+    },
+}
 -- return {
 --     { "rebelot/kanagawa.nvim" },
 --     {
